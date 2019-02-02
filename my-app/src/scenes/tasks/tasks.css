@@ -1,0 +1,104 @@
+.tasks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasksConts{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.tasksConts:hover .tContImg1{
+    background-image: url('./images/pencilHover.png');
+}
+
+.tasksConts:hover .tContImg2{
+    background-image: url('./images/develHover.png');
+}
+
+.tasksConts:hover .tContImg3{
+    background-image: url('./images/customHover.png');
+}
+
+.tasksConts:hover .tContImg4{
+    background-image: url('./images/marketingHover.png');
+}
+
+.tasksConts:hover .text1{
+    color: #c7b299;
+}
+
+.tasksConts:hover .lineUnderText{
+    background: #c7b299;
+}
+
+.tContImg1{
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/pencil.png');
+    background-repeat: no-repeat;
+}
+
+.tContImg2{
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/devel.png');
+    background-repeat: no-repeat;
+}
+
+.tContImg3{
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/custom.png');
+    background-repeat: no-repeat;
+}
+
+.tContImg4{
+    width: 52px;
+    height: 50px;
+    background-image: url('./images/marketing.png');
+    background-repeat: no-repeat;
+}
+
+.margImg{
+    margin: 0 auto;
+}
+
+.text1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+    text-align: center;   
+}
+
+.text2{
+    color: #8c8c8c;
+    text-align: center;
+}
+
+.lineUnderText{
+    width: 100px;
+    height: 3px;
+    background: #f1eee9;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 820px){
+    .tasks{
+        display: block;
+    }
+
+    .tasksConts{
+        margin: 50px auto;
+        
+    }
+}
+

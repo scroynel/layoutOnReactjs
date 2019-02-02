@@ -1,0 +1,85 @@
+.statistics{
+    width: 100%;
+    background-image: linear-gradient(to right, #211b19 10%, #4e3427 100%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.statCont{
+    width: 15%;
+    line-height: 5px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.statCont:hover .statContStick{
+    background: aqua;
+}
+
+.statContImg1{
+    width: 44px;
+    height: 44px;
+    background-image: url('./images/icon1.png');
+    margin: 0 auto;
+}
+.statContImg2{
+    width: 48px;
+    height: 44px;
+    background-image: url('./images/icon2.png');
+    margin: 0 auto;
+}
+.statContImg3{
+    width: 44px;
+    height: 44px;
+    background-image: url('./images/icon3.png');
+    margin: 0 auto;
+}
+.statContImg4{
+    width: 44px;
+    height: 44px;
+    background-image: url('./images/icon4.png');
+    margin: 0 auto;
+}
+.statContImg5{
+    width: 54px;
+    height: 44px;
+    background-image: url('./images/icon5.png');
+    margin: 0 auto;
+}
+
+.number{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 44px;
+    cursor: default;
+}
+
+.statContText{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #c7b299;
+    text-align: center;
+    cursor: default;
+    line-height: 20px;
+}
+
+.statContStick{
+    width: 70px;
+    height: 2px;
+    background: white;
+    border-radius: 10px;    
+    position: absolute;
+    margin-top: 30px;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -20px;
+}
+
+
+@media screen and (max-width: 820px){
+    .statistics{
+        display: none;
+    }
+}

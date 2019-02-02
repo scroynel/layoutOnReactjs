@@ -1,0 +1,37 @@
+.presentation{
+    width: 100%;
+    background-size: cover;
+    background-image: url('./images/bg.png');
+}
+
+.mainPresentationDiv{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background: black;
+    opacity: 0.5;
+    
+    
+}
+
+.presDivImg{
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/iconPlay.png');
+    margin: 0 auto;
+}
+
+.underPresText1{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.underPresText2{
+    color: white;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
